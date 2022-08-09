@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.sobremim {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.sobremim p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.frontend {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.frontend p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.geomarketing {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.geomarketing p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.cartao {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: justify;
+}
