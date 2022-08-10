@@ -16,7 +16,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
     <header>
-        <nav id="navbar-example2" class="navbar sticky-top px-3 mb-3">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg stycky-top fixed-top px-3 mb-3 bg-light">
             <a class="navbar-brand" href="#">
                 <img src="imagens/icones/htmllaranja.png" class="rounded float-end ms-1" alt="" width="30" height="30">
                 <img src="imagens/icones/css.png" class="rounded float-end ms-1" alt="" width="30" height="30"
@@ -27,17 +27,22 @@
                 <img src="imagens/icones/git.png" class="rounded float-end ms-1" alt="" width="30" height="30">
                 <img src="imagens/icones/github.png" class="rounded float-end ms-1" alt="" width="30" height="30">
             </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading1">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">Front-end</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading3">Geomarketing</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></class=>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Front-end</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Geomarketing</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -46,10 +51,15 @@
         <div class="container-fluid sobremim" data-bs-spy="scroll" data-bs-target="#navbar-example2"
             data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
             class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-            <div class="row justify-content-center align-items-center vh-100">
-                <div class="col-md-4 col-xs-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-xs-6">
                     <section>
-                        <h2 class="mb-4" id="scrollspyHeading1">Oi, sou Guilherme!</h2>
+                        <h1 class="mb-4 mt-5" id="scrollspyHeading1">
+                            <img src="imagens/guilherme_final.png" width="150" height="150" class="img-fluid rounded float-start me-4 mt-2" alt="">
+                            <br>
+                            Oi, sou Guilherme!
+                        </h1>
+                        
                         <p class="text-break">
                             Desenvolvedor front end em formação. 
                             Estou curtindo bastante o desenvolvimento web, tenho me aprimorado em CSS3, Bootstrap 5.2 e
@@ -57,25 +67,22 @@
                             Também tenho graduação em economia. Sou mestre em ciência da propriedade intelectual. 
                             E por ter trabalhado com pesquisa, academicamente, por mais de seis anos, eu também me interesso
                             bastante por geomarketing/estudos de mercado. <br>
-                            Tenho um nível intermediário de inglês e pré-intermediário de espanhol. Consigo me comunicar relativamente bem em inglês, mas confesso que "escorrego" nos tempos verbais. 
-                            Já em relação ao espanhol me comunico sobre questões mais básicas, leio bem, e consigo entender podcasts e pessoas falando. 
+                            Tenho um nível intermediário de inglês e pré-intermediário de espanhol. Consigo me comunicar relativamente bem em inglês, mas confesso que "escorrego" nos tempos verbais. <br>
+                            Já em relação ao espanhol me comunico sobre questões mais básicas, leio bem, e consigo entender podcasts e pessoas falando. <br>
                             Tenho me descoberto bastante em ambos os idiomas.
                         </p>
                 </div>
                 </section>
-                <div class="col-md-3 col-xs-3">
-                    <img src="imagens/guilherme_final.png" width="150" height="150" class="img-fluid" alt="">
-                </div>
             </div>
 
         </div>
 
         <!--DIV FRONT END-->
         <div class="container-fluid frontend">
-            <div class="row justify-content-center align-items-center vh-100">
+            <div class="row justify-content-center align-items-center">
 
                 <div class="col-md-2 col-xs-2 text-center">
-                    <div class="card h-100 border-danger">
+                    <div class="card h-100 border-danger mb-3">
                         <div class="card-body">
                             <h1 class="fs-4">Desafios HTML5</h1>
                             <p class="card-text fs-6">Atividades propostas pelo Todas as Letras tendo como foco o HTML5
@@ -89,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-2 text-center">
-                    <div class="card h-100 border-info">
+                    <div class="card h-100 border-info mb-3">
                         <div class="card-body">
                             <h1 class="fs-4">Desafios CSS3</h1>
                             <p class="card-text fs-6">Atividades propostas pelo Todas as Letras tendo como foco o CSS3
@@ -103,7 +110,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-2 text-center">
-                    <div class="card h-100 border-warning">
+                    <div class="card h-100 border-warning mb-3">
                         <div class="card-body">
                             <h1 class="fs-4">Desafios JavaScript</h1>
                             <p class="card-text fs-6">Atividades propostas pelo Todas as Letras tendo como foco o
@@ -117,7 +124,7 @@
                     </div>
                 </div>
                 <section class="col-md-4 col-xs-4">
-                    <h2 class="mb-4" id="scrollspyHeading2">Front end</h2>
+                    <h2 class="mt-5" id="scrollspyHeading2">Front end</h2>
                     <p class=" text-break">
                         O desenvolvimento web pode se dividir em front-end e back-end, a grosso modo. 
                         O desenvolvimento
@@ -138,7 +145,7 @@
         <!--DIV GEOMARKETING-->
 
         <div class="container-fluid geomarketing">
-            <div class="row justify-content-center align-items-center vh-100">
+            <div class="row justify-content-center align-items-center ">
                 <section class="col-md-4 col-xs-4">
                     <h2 class="mb-4" id="scrollspyHeading3">Geomarketing</h2>
                     <p class="text-break">
@@ -157,8 +164,8 @@
                     </p>
                 </section>
 
-                <div class="col-md-3 col-xs-3">
-                    <div class="card border-primary">
+                <div class="col-md-3 col-mx-3">
+                    <div class="card border-primary mb-3">
                         <div class="ratio ratio-4x3" style="object-fit: contain;">
                             <img src="imagens/geomarketing/ANALISE DE REDES.png" class="img-fluid card-img-top" alt="...">
                         </div>
@@ -172,7 +179,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-3">
-                    <div class="card border-primary fs-3">
+                    <div class="card border-primary fs-3 mb-3">
                         <div class="ratio ratio-4x3" style="object-fit: contain;">
                             <img src="imagens/geomarketing/PROJETO CAFÉ.png" class="img-fluid card-img-top"
                                 alt="imagem de capa do projeto café no linkedin">
@@ -195,7 +202,7 @@
     <!--FOOTER-->
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-            <div class="col-md-4 d-flex align-items-center h-100">
+            <div class="col md-4 col-xs-4 d-flex align-items-center h-100">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap"></use>
