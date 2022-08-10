@@ -27,6 +27,10 @@
     text-align: justify;
 }
 
+#link-cartao-frontend {
+    margin-top: 300px;
+}
+
 #scrollspyHeading2 {
     margin-top: 100px;
 }
@@ -52,4 +56,12 @@
     font-weight: 400;
     font-size: 1.2em;
     text-align: justify;
+}
+
+#link-cartao-geomarketing-cafezinho {
+    margin-top: 50px;
+}
+
+#link-cartao-geomarketing-redes {
+    margin-top: 300px;
 }
